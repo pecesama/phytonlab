@@ -1,4 +1,4 @@
-## Welcome to Phyton Labs
+## Welcome to the Python Lab
 
 A blog for learning and practicing the Python Programming Language.
 
@@ -11,7 +11,7 @@ A blog for learning and practicing the Python Programming Language.
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
     </li>
+    {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
   {% endfor %}
 </ul>

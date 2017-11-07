@@ -2,14 +2,14 @@
 layout: post
 title:  "Taglib clone"
 date:   2017-11-07 13:09:02 -0600
-categories: phyton
+categories: python
 ---
 
-A Phyton clone of the Homebrew's Taglib
+A Python clone of the Homebrew's Taglib
 
 ![Screenshot]({{ "/assets/taglib.jpg" | absolute_url }})
 
-{% highlight phyton %}
+{% highlight python %}
 import os
 import taglib
 import PIL.Image
