@@ -5,7 +5,7 @@ date:   2017-11-07 13:09:02 -0600
 categories: python
 ---
 
-A Python clone of the Homebrew's Taglib
+A Python clone of the Homebrew's Taglib.
 
 ![Screenshot]({{ "/assets/taglib.jpg" | absolute_url }})
 

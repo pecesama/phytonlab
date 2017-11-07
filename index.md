@@ -12,6 +12,6 @@ A blog for learning and practicing the Python Programming Language.
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
-    {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+    {{ post.excerpt }}
   {% endfor %}
 </ul>
